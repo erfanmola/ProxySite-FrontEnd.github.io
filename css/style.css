@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fafafa;
+  font-family: "Roboto", serif;
+  direction: ltr;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+::selection {
+  background: #3BB9FF;
+  color: white;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.holder {
+  width: 1024px;
+  margin: auto;
+}
+
+#header {
+  float: right;
+  width: 100%;
+  background: #2196F3;
+  border-radius: 0% 0% 100% 100%/0% 0% 60% 60%;
+}
+#header * {
+  color: white;
+}
+#header ul {
+  float: left;
+  padding: 32px 0;
+}
+#header ul li {
+  display: inline-block;
+  padding: 6px;
+  margin: 0 16px;
+}
+#header ul li a {
+  font-size: 16px;
+  opacity: 0.9;
+  transition: opacity 0.15s;
+}
+#header ul li a:hover {
+  opacity: 1;
+}
+#header #get-started {
+  float: right;
+  margin: 32px 0;
+  padding: 12px 18px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.25s;
+  color: white;
+}
+#header #get-started:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#header #header-sections {
+  float: left;
+  width: 100%;
+  margin: 64px 0 128px;
+}
+#header #header-sections #section-left {
+  float: left;
+  width: 60%;
+}
+#header #header-sections #section-left h1 {
+  float: left;
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+  font-size: 32px;
+  font-weight: bold;
+}
+#header #header-sections #section-left p {
+  float: left;
+  width: 100%;
+  height: 64px;
+  line-height: 32px;
+  font-size: 18px;
+  margin-top: 24px;
+}
+#header #header-sections #section-right {
+  float: right;
+  width: 40%;
+}
+#header #header-sections #section-right svg {
+  float: right;
+  width: 60%;
+  margin: 0 20%;
+}
+#header #header-sections #section-right svg path {
+  fill: #2196F3;
+  stroke: white;
+  stroke-width: 8px;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 3s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#content section {
+  float: right;
+  width: 100%;
+  margin: 24px 0;
+}
+#content section h2 {
+  float: right;
+  width: 100%;
+  text-align: center;
+  color: #353535;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 24px 0;
+}
+#content #intro svg {
+  float: left;
+  width: 30%;
+  margin: 24px 0 0;
+}
+#content #intro p {
+  float: right;
+  width: 60%;
+  margin: 24px 0;
+  font-size: 18px;
+  line-height: 2;
+  text-align: justify;
+  color: #454545;
+}
+#content #features ul {
+  float: right;
+  width: 100%;
+}
+#content #features ul li {
+  float: left;
+  width: calc(28% - 4px);
+  background-color: white;
+  margin: 24px 2.6666%;
+  border: 2px dashed rgba(0, 0, 0, 0.08);
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.15s;
+}
+#content #features ul li:hover {
+  box-shadow: 0 16px 24px 2px rgba(144, 144, 144, 0.14), 0 6px 30px 5px rgba(144, 144, 144, 0.12), 0 8px 10px -7px rgba(144, 144, 144, 0.3);
+}
+#content #features ul li svg {
+  float: right;
+  width: 50%;
+  margin: 0 25%;
+}
+#content #features ul li h4 {
+  float: right;
+  width: 100%;
+  margin: 24px 0 32px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  color: #454545;
+}
+#content #pricing ul {
+  float: right;
+  width: 100%;
+}
+#content #pricing ul li {
+  float: left;
+  width: calc(28% - 2px);
+  background-color: white;
+  margin: 16px 2.6666%;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  box-shadow: 0 16px 24px 2px rgba(144, 144, 144, 0.14), 0 6px 30px 5px rgba(144, 144, 144, 0.12), 0 8px 10px -7px rgba(144, 144, 144, 0.3);
+  overflow: hidden;
+  text-align: center;
+}
+#content #pricing ul li * {
+  transition: all 0.15s;
+}
+#content #pricing ul li:hover {
+  background-color: #2196F3;
+}
+#content #pricing ul li:hover * {
+  transition: all 0.15s;
+}
+#content #pricing ul li:hover span {
+  color: white !important;
+}
+#content #pricing ul li:hover p {
+  color: white !important;
+}
+#content #pricing ul li:hover .button {
+  background-color: white !important;
+  color: #2196F3 !important;
+}
+#content #pricing ul li:hover div {
+  color: white !important;
+}
+#content #pricing ul li:hover select {
+  color: white !important;
+  border-color: white !important;
+}
+#content #pricing ul li h3 {
+  float: right;
+  width: 100%;
+  padding: 32px 0;
+  text-align: center;
+  font-size: 22px;
+  background-color: #2196F3;
+  color: white;
+  font-weight: normal;
+}
+#content #pricing ul li span {
+  float: right;
+  width: 100%;
+  padding: 24px 0 12px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2196F3;
+}
+#content #pricing ul li p {
+  float: right;
+  width: calc(100% - 24px);
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #757575;
+  text-align: center;
+}
+#content #pricing ul li .button-container {
+  float: right;
+  width: 100%;
+  padding: 24px 0 48px;
+  margin: 0;
+  text-align: center;
+}
+#content #pricing ul li .button-container .button {
+  background: #2196F3;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#content #pricing ul li label {
+  float: right;
+  width: 100%;
+  padding: 16px 0;
+}
+#content #pricing ul li label div {
+  font-size: 16px;
+  text-align: center;
+  float: right;
+  width: 100%;
+  margin-bottom: 12px;
+  color: #656565;
+}
+#content #pricing ul li label select {
+  float: right;
+  width: calc(40% - 4px);
+  padding: 6px 0;
+  margin: 0 30%;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center !important;
+  border: 2px solid #2196F3;
+  background-color: transparent !important;
+  cursor: pointer;
+  outline: none !important;
+  color: #454545;
+  text-align-last: center !important;
+}
+#content #pricing ul li label select option {
+  text-align: center !important;
+  text-align-last: center !important;
+  color: #454545 !important;
+}
+#content #teaser {
+  padding: 48px 0;
+}
+#content #teaser #video-information {
+  float: right;
+  width: 40%;
+}
+#content #teaser #video-information h4 {
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+  color: #353535;
+  margin-bottom: 24px;
+}
+#content #teaser #video-information p {
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  text-align: justify;
+  color: #454545;
+  line-height: 2;
+}
+#content #teaser #video-container {
+  float: left;
+  width: 55%;
+}
+#content #teaser #video-container video {
+  float: left;
+  width: calc(100% - 10px);
+  border: 5px solid white;
+  box-shadow: 0 16px 24px 2px rgba(144, 144, 144, 0.14), 0 6px 30px 5px rgba(144, 144, 144, 0.12), 0 8px 10px -7px rgba(144, 144, 144, 0.3);
+  border-radius: 10px;
+}
+#content #contact svg {
+  float: right;
+  width: 30%;
+  margin: 0;
+}
+#content #contact div {
+  float: left;
+  width: 60%;
+  margin: 24px 0;
+  text-align: center;
+}
+#content #contact div p {
+  float: left;
+  font-size: 18px;
+  line-height: 2;
+  color: #454545;
+  margin-bottom: 42px;
+  text-align: justify;
+}
+#content #contact div a {
+  background-color: #2196F3;
+  color: white;
+  padding: 11px 64px;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: color 0.15s, background-color 0.15s;
+  border: 1px solid transparent;
+}
+#content #contact div a:hover {
+  background-color: white;
+  color: #2196F3;
+  border-color: #2196F3;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  background-color: #2196F3;
+  border-radius: 30% 30% 0% 0%/50% 50% 0% 0%;
+  padding-top: 32px;
+}
+footer p {
+  float: left;
+  line-height: 42px;
+  height: 42px;
+  font-size: 16px;
+  margin: 16px 0 32px;
+  color: white;
+}
+footer #EM-Copyright {
+  float: right;
+  line-height: 42px;
+  height: 42px;
+  width: 42px;
+  margin: 16px 0 32px;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid transparent;
+  text-align: center;
+  transition: 0.15s all;
+}
+footer #EM-Copyright svg {
+  margin-top: 9px;
+  height: 24px;
+}
+footer #EM-Copyright svg path {
+  transition: 0.15s all;
+  fill: #2196F3;
+}
+footer #EM-Copyright:hover {
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+footer #EM-Copyright:hover svg path {
+  fill: white;
+}
+
+select::-ms-expand {
+  display: none !important;
+}
+
+select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  text-indent: 1px !important;
+  text-overflow: "" !important;
+}
+
+/*# sourceMappingURL=style.css.map */

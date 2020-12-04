@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0176479c-db08-4e20-8e40-3e5deb5270fb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1kintA2UC2N2kG3Y81Ji3c6xiBc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/icons" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Localhost\htdocs\proxy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Localhost\htdocs\proxy\icons" />
+      <recent name="C:\Localhost\htdocs\proxy" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0176479c-db08-4e20-8e40-3e5deb5270fb" name="Default Changelist" comment="" />
+      <created>1606192491838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606192491838</updated>
+      <workItem from="1606192492978" duration="26912000" />
+      <workItem from="1606285368966" duration="548000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="333" key="EditFileWatcherDialog" timestamp="1606192808940">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="629" y="333" key="EditFileWatcherDialog/1920.30.1366.738/0.30.1920.1050@0.30.1920.1050" timestamp="1606192808940" />
+    <state x="794" y="478" key="NewPhpFileDialog" timestamp="1606192564760">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="794" y="478" key="NewPhpFileDialog/1920.30.1366.738/0.30.1920.1050@0.30.1920.1050" timestamp="1606192564760" />
+  </component>
+</project>
